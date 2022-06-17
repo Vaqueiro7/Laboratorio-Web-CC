@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <section>
+        <fieldset>
+            <legend>Preencha com Suas Informações</legend>
+            <p> <label>Nome :<input></label></p>
+            <p><label>Endereço: <input type="text"></label></p>
+            <p><label>Cidade: <input type="text"></label></p>
+            <p><label>Data de Nascimento : <input type="date" name="data"></label></p>
+            <p><label>Email : <input type="email" name="email"> </label></p>
+            <p><label>Telefone : <input type="tel" placeholder="(XX) XXXX-XXXX"
+                        pattern="^\(?\d{2}\)\d{4}[-\s]\d{4}.*?$"></label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Selecione seu Estado Civil:</legend>
+            <p><label><input type="radio" name="est_civ" value="casado">Casado</label></p>
+            <p><label><input type="radio" name="est_civ" value="solteiro">Solteiro</label></p>
+            <p><label><input type="radio" name="est_civ" value="divorciado">Divorciado</label></p>
+            <p><label><input type="radio" name="est_civ" value="viuvo">Viúvo</label></p>
+        </fieldset>
+
+    </section>
+    <section>
+        <fieldset>
+            <legend>Selecione sua Região e seu Estado</legend>
+
+            <select name="norte">
+                <!--anotar depois-->
+                <option selected disable value="">Selecione...</option>
+                <!-- para deixar sem opçao da hora de selecionar-->
+                <optgroup label="Norte">
+                    <option>Maranhão (MA)</option>
+                    <option>Piauí (PI)</option>
+                    <option>Ceará (CE)</option>
+                    <option>Rio Grande do Norte (RN)</option>
+                    <option>Pernambuco (PE)</option>
+                </optgroup>
+                <optgroup label="Sul">
+                    <option>Paraná(PR)</option>
+                    <option>Santa Catarina(SC)</option>
+                    <option>Rio Grande do Sul(RS)</option>
+                </optgroup>
+                <optgroup label="Sudeste">
+                    <option>Minas Gerais(MG)</option>
+                    <option>Rio de Janeiro(RJ)</option>
+                    <option>São Paulo(SP)</option>
+                    <option>Espírito Santo(ES)</option>
+                </optgroup>
+            </select>
+        </fieldset>
+    </section>
+
+    <section>
+        <fieldset>
+            <legend>Selecione Seu Esporte Favorito:</legend>
+            <p><label><input type="checkbox" name="esportes">Futebol</label></p>
+            <p><label><input type="checkbox" name="esportes">Basquete</label></p>
+            <p><label><input type="checkbox" name="esportes">Tênis de mesa</label></p>
+            <p><label><input type="checkbox" name="esportes">Tênis</label></p>
+            <p><label><input type="checkbox" name="esportes">Natação</label></p>
+            <p><label><input type="checkbox" name="esportes">Corrida</label></p>
+        </fieldset>
+    </section>
+    <p><label><input type="submit"></label></p>
+</body>
+
+</html>

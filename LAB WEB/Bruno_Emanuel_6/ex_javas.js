@@ -1,0 +1,12 @@
+let name =prompt("Digite seu Nome:")
+let firstnumber = prompt("Digite o Primeiro número:")
+let secondnumber = prompt("Digite o Segundo número:")
+const addition = parseInt (firstnumber) + parseInt (secondnumber)
+const subtraction = parseInt(firstnumber) - parseInt(secondnumber)
+const multiplication = parseInt(firstnumber) * parseInt(secondnumber)
+const division = parseInt(firstnumber) / parseInt (secondnumber)
+
+alert ("A soma é igual a:" + addition)
+alert ("A subtração é igual a:" + subtraction)
+alert ("A multiplicação é igual a:" + multiplication)
+alert ("A divisão é igual a:" + division)

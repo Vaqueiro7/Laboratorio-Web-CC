@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div>
+        <header>
+            <a href="index.html">Voltar á Página inicial</a>
+        </header>
+    </div>
+    <div>
+        <center>
+            <h1>
+                Cadastro
+            </h1>
+        </center>
+    </div>
+    <section>
+        <font color="red">
+        <center>
+        <table border="1" bgcolor="black" border="red" cellpadding="1" cellspacing="2" width="280" height="" >
+            <tr align="right" >
+                <td>
+                    <label for="nome">Nome:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Insira seu nome" >
+                </td>
+            </tr>
+            <tr align="right">
+                <td ">
+                    <label for="endereço">Endereço:</label>
+                </td>
+                <td >
+                    <input type="text" placeholder="Insira seu Endereço" >
+                </td>
+            </tr>
+            <tr align="right">
+                <td>
+                    <label for="cidade">Cidade:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Sua Cidade">
+                </td>
+            </tr>
+
+            <tr align="right">
+                <td>
+                    <label for="estado">Estado:</label>
+                </td>
+                <td>
+                    <input type="text" placeholder="Seu Estado">
+                </td>
+            </tr>
+
+            <tr align="right">
+                <td>
+                    <label for="cep">CEP:</label>
+                </td>
+                <td>
+                  <input type="text" placeholder="Digite seu CEP">
+                </td>
+            </tr>
+
+            <tr align="right">
+                <td>
+                    <label for="telefone">Telefone:</label>
+                </td>
+                <td>
+                    <input type="tel" placeholder="(35)9212-3914" pattern="^\(?\d{2}\)\d{4}[-\s]\d{4}.*?$">
+                </td>
+            </tr>
+
+            <tr align="right">
+                <td>
+                    <label for="telefone">Escolaridade:</label>
+                </td>
+                <td align="left">
+                <p> <input type="radio" name="escolaridade" >Ensino Fundamental</p>
+                <p> <input type="radio" name="escolaridade" >Ensino Médio</p>
+                <p> <input type="radio" name="escolaridade" >Ensino Superior</p>
+                <p> <input type="radio" name="escolaridade" >Pós Graduação</p>
+                </td>
+            </tr>
+
+            <tr align="right">
+                <td>
+                    <label for="nascimento">Data de Nascimento:</label>
+                </td>
+                <td align="center">
+                    <input type="date" name="nascimento" >
+                </td>
+            </tr>
+
+            <tr align="right">
+                <td>
+                    <label for="email">Email:</label>
+                </td>
+                <td>
+                    <input type="email" name="mail" placeholder="Seu email" >
+                </td>
+            </tr>
+
+            <tr align="right">
+                <td >
+                    <label for="insta">Endereço URL do Instagram:</label>
+                </td>
+                <td>
+                    <input type="url" name="insta" placeholder="LINK URL do seu Instagram">
+                </td>
+            </tr>
+        </font>
+        </table>
+    <br>
+        <label for="botao">
+            <input type="submit">
+        </label>
+        <label for="cancelar">
+            <input type="reset" >
+        </label>
+        </center>
+    </section>
+</body>
+</html>

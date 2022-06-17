@@ -1,0 +1,46 @@
+*{
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 720px;
+    
+}
+
+
+body{
+    background-color: white;
+}
+.table-responsive{
+    width: 100% !important;
+  }
+  
+  .table {
+      border: 1px solid;
+      width: 100% !important; 
+      margin: auto;
+  }
+  
+  .table-status {
+      margin-top: 20px;
+      margin-bottom: 20px !important;
+  }
+table.table{
+    background-color: crimson;
+    padding: 0px;
+    border-radius: 9px;
+    border-color: coral;
+    border-spacing: 1px;
+    font-family: "Roboto";
+}
+
+td{
+    height: 50px; 
+    width: 50px;
+    text-align: left; 
+    vertical-align: middle;
+}
+
+td.nome{
+font-family: Impact;
+text-decoration-line: underline;
+}
